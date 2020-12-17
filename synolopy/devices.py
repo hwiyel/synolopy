@@ -178,7 +178,7 @@ def _nas_api(url, login, password):
         'CGI': {
             'auth': {
                 'api': 'SYNO.API.Auth',
-                'version': 2
+                'version': 3
             },
             'query': {
                 'api': 'SYNO.API.Info',
